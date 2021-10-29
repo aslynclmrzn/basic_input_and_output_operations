@@ -1,0 +1,6 @@
+Amount_of_Money = int(input("Enter amount of money: "))
+Price_of_Apple = int(input("What is the price of apple? "))
+Maximum_number_of_apples = int(Amount_of_Money/Price_of_Apple)
+Remaining_money = int(Amount_of_Money-(Maximum_number_of_apples*Price_of_Apple) )
+print ()
+print (f"You can buy {Maximum_number_of_apples} apples and your change is {Remaining_money} pesos.")
